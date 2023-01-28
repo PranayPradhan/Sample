@@ -1,0 +1,58 @@
+<html>
+<head>
+    <h2> <u>Pranay Pradhan's Activity Log</u></h2>
+<style>
+    h2{
+        text-align: center;
+        
+    }
+    body{
+        background-color: #eaf6f6;
+        margin: 0;
+    }
+    .formclass{
+        width: 50%;
+        padding:30px;
+        line-height:2;
+    }
+    .btn{
+        padding:10px;
+        margin:10 0 0 0;
+    }
+    </style>
+</head>
+
+
+<body>
+
+<div class="formclass">
+<form>
+
+<form action="/action_page.php">
+	<label for="date">Date: </label>
+	<input type="date" id="day" name="day"><br>
+	
+	<label for="hours">Hours spent: </label>
+	<select name="hours" id="hours">
+		<option>0 hrs</option>
+		<option>0.5 hrs</option>
+		<option>1 hr</option>
+		<option>1.5 hrs</option>
+		<option>2 hrs</option>
+		<option>2.5 hrs</option>
+		<option>3 hrs</option>
+		<br>
+	</select><br>
+	
+	<label for="activity">Activity:</label><br>
+	<textarea id="activity" name="activity" rows="6" cols="70">Write a comment about your activity for the day.</textarea>
+	
+	<input type="submit" value="Submit" class="btn">
+
+</form>
+</div>
+</body>
+
+
+</html>
+
